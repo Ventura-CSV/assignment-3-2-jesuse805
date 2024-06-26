@@ -7,7 +7,8 @@ def main():
     Code Your Program here
     """
     if num1 <= num2 and num1 <= num3:
-        minval = num
+        minval = num1
+    elif
     
     
     """
