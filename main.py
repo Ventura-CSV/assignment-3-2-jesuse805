@@ -14,7 +14,14 @@ def main():
     else:
         minval = num3
         
-    
+    # The "If" statements are the complete opposite of the previous statements
+    # Thus, Calculates the highest number in the program
+    if num1 >= num2 and num1 >= num3:
+        maxval = num1
+    elif num2 >= num1 and num2 > num3:
+        maxval = num2
+    else:
+        maxval = num3
     
     
     """
