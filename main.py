@@ -26,7 +26,8 @@ def main():
         maxval = num3
     
     #Calculate Median
-    if (num1 <= num2 and >= num3) or (num1 >= num2 and num1 <= num3): 
+    if (num1 <= num2 and num1 >= num3) or (num1 >= num2 and num1 <= num3):
+        median = num1 
         
     
     
