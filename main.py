@@ -6,6 +6,7 @@ def main():
     ########################################
     Code Your Program here
     """
+    #Calculate Minimum
     # The "If" statements calulate the smallest number within the program
     if num1 <= num2 and num1 <= num3:
         minval = num1
@@ -14,8 +15,9 @@ def main():
     else:
         minval = num3
         
+    #Calculate Maximum
     # The "If" statements are the complete opposite of the previous statements
-    # Thus, Calculates the highest number in the program
+    # Thus, Calculates the Maximum number in the program
     if num1 >= num2 and num1 >= num3:
         maxval = num1
     elif num2 >= num1 and num2 > num3:
@@ -23,7 +25,8 @@ def main():
     else:
         maxval = num3
     
-    
+    #Calculate Median
+    if (num1 <= num2 and >= num3)
     
     
     """
