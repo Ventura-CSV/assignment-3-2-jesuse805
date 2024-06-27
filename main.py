@@ -26,10 +26,13 @@ def main():
         maxval = num3
     
     #Calculate Median
+    # The "If" statement calculates whether num1 is the median with 2 and statements and an or statement
     if (num1 <= num2 and num1 >= num3) or (num1 >= num2 and num1 <= num3):
         median = num1 
-    elif (num1 <= num2 and num2 >= num3) or (num2 >= num1 and num2 <= num3):
+    # The "elif" statement calculates whether num2 is the median, replicating num 1 statements
+    elif (num2 <= num1 and num2 >= num3) or (num2 >= num1 and num2 <= num3):
         median = num2
+    # If num1 and num2 arent the median, thus num3 is the median
     else:
         median = num3
     
